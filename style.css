@@ -44,30 +44,6 @@ ul li:hover {
 
 
 
-.advert {
-    display: flex;
-    justify-content: space-between;
-}
-
-.order {
-    width: 30%;
-    border: 1px solid #000;
-    line-height: 14px;
-    margin-bottom: 30px;
-}
-
-.fa-bell {
-    color: #FA9529;
-    font-size: 60px;
-    display: block;
-    width: 300px;
-    margin: 0 auto;
-}
-
-h2 {
-    text-align: center;
-    color: #73313C;
-}
 
 .van {
     color: #FA9529;
@@ -186,4 +162,47 @@ button {
     border: 1px solid #FA9529;
     border-radius: 30px 30px 0 30px;
     padding: 15px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F7FDF6;
+}
+
+.order {
+    margin-top: 80px;
+    width: 30%;
+    border: 1px solid #7D414A;
+    line-height: 14px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.fa-bell {
+    color: #FA9529;
+    font-size: 60px;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #73313C;
+}
+
+.order p {
+    color: #7C7E7C;
+    line-height: 18px;
+}
+
+.soda {
+    color: #FA9529;
+    font-size: 60px;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
 }
