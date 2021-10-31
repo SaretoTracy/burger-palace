@@ -210,8 +210,43 @@ h2 {
     background-color: #E1EBE6;
 }
 
+.slide {
+    width: 90%;
+}
+
+.overlay {
+    float: right;
+    position: relative;
+    top: 0;
+    margin-bottom: 30px;
+}
+
+.ad {
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#double_check {
+    position: absolute;
+    z-index: 5;
+    left: 0;
+}
+
+.dot {
+    border: 1px;
+    border-radius: 50px;
+    border-color: transparent;
+    background: grey;
+}
+
 .apps {
+    margin-top: 100px;
     background: #F5B426;
+}
+
+.media {
+    margin-top: 100px;
 }
 
 .maps ul li {
