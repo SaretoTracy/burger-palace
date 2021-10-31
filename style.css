@@ -1,93 +1,92 @@
-.body{
+/* .body {
     border: 1px solid;
 }
-.main{margin: 0;
-max-width: 80%;
-}
-.icon{
-    position: relative;
-    top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.front{
-display: inline;
-color:#000000 ;
-font-family: 'Lobster', cursive;
-font-weight: 400;
 
-font-size: 20px;
+.main {
+    width: 100%;
 }
-.end{
-    color:#FFC12B ;
-    font-family: 'Lobster', cursive;
 
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
-.navbar{
+
+.icon {
+    display: flex;
+}
+
+
+
+.navbar {
     float: right;
 }
-ul li{
+
+ul li {
     display: inline;
     text-align: right;
     padding: 10px;
     margin: 0;
 }
-ul li:hover{
+
+ul li:hover {
     text-decoration: underline #FF6D21 6px solid;
-    
 }
-.float{
+
+.float {
     position: relative;
     margin-top: 25px;
     float: right;
-    
-    
+    width: 40%;
 }
 
-h1{
+h1 {
     margin-top: 100px;
     margin-left: 40px;
 }
-p{
+
+p {
     margin-left: 40px;
     margin-top: 40px;
     color: #726969;
 }
-button{
+
+button {
     color: #fff;
-    background:#FA9529 ;
+    background: #FA9529;
     margin-top: 40px;
     margin-left: 60px;
     border: 1px solid #FA9529;
     border-radius: 30px 30px 0 30px;
     padding: 8px;
-
 }
-.advert{
+
+.advert {
     display: flex;
     justify-content: space-between;
 }
-.order{
+
+.order {
     width: 30%;
     border: 1px solid #000;
-  line-height: 14px;
-  margin-bottom: 30px;
+    line-height: 14px;
+    margin-bottom: 30px;
 }
 
-.fa-bell{
+.fa-bell {
     color: #FA9529;
     font-size: 60px;
     display: block;
     width: 300px;
     margin: 0 auto;
 }
-h2{
+
+h2 {
     text-align: center;
-  color: #73313C;
-  
+    color: #73313C;
 }
 
-
-.van{
+.van {
     color: #FA9529;
     font-size: 60px;
     display: block;
@@ -95,10 +94,80 @@ h2{
     margin: 0 auto;
 }
 
-.soda{
+.soda {
     color: #FA9529;
     font-size: 60px;
     display: block;
     width: 150px;
     margin: 0 auto;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(110deg, white 60%, #F6B400 0%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.front {
+    color: #000000;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.end {
+    color: #FFC12B;
+    font-family: 'Lobster', cursive;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 0 20px;
+}
+
+.nav ul li a {
+    font-weight: 700;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline 6px solid #FF6D21;
+}
+
+#wallet {
+    width: 20px;
+    margin-left: 20px;
 }
