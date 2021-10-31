@@ -117,7 +117,7 @@ a {
     min-height: 100vh;
     width: 100%;
     position: relative;
-    background: linear-gradient(110deg, white 60%, #F6B400 0%);
+    background: linear-gradient(110deg, white 60%, #F6B400 60%);
 }
 
 .navbar {
@@ -170,4 +170,19 @@ a {
 #wallet {
     width: 20px;
     margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.motto {
+    justify-content: center;
+}
+
+#advert {
+    width: 50%;
 }
