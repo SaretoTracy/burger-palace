@@ -209,3 +209,11 @@ h2 {
 .shop-cart {
     background-color: #E1EBE6;
 }
+
+.apps {
+    background: #F5B426;
+}
+
+.maps ul li {
+    display: flex;
+}
