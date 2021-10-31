@@ -215,6 +215,21 @@ h2 {
     margin-left: 20px;
 }
 
+.header {
+    text-decoration: underline 6px solid #FF6D21;
+}
+
+.start {
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.stop {
+    color: #FFC12B;
+}
+
 .double {
     margin-top: 80px;
     width: 30%;
